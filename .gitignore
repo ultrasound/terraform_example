@@ -4,3 +4,4 @@
 *.iml
 terraform_up_and_running
 .idea
+terraform.exe

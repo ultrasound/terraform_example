@@ -1,0 +1,8 @@
+terraform {
+  backend "s3" {
+    encrypt = true
+    bucket = "ultrasound-terraform-example"
+    region = "ap-northeast-2"
+    key = "global/s3/terraform.tfstate"
+  }
+}
